@@ -1,0 +1,6 @@
+## vocab placeholder
+[PAD]
+[UNK]
+open
+scan
+files

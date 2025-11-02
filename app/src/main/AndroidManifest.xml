@@ -1,0 +1,5 @@
+<manifest package="com.pranidhi.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application android:name=".PranidhiApp" android:allowBackup="false" android:label="Pranidhi">
+    </application>
+</manifest>

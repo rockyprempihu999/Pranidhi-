@@ -1,0 +1,8 @@
+CREATE TABLE crdt_meta (
+  key TEXT NOT NULL PRIMARY KEY,
+  version_vector TEXT NOT NULL,
+  last_modified INTEGER NOT NULL,
+  tombstone INTEGER DEFAULT 0
+);
+CREATE INDEX idx_crdt_meta_lastmod ON crdt_meta(last_modified);
+CREATE TABLE hashing_progress ( key TEXT PRIMARY KEY, bytes_done INTEGER, last_updated INTEGER );

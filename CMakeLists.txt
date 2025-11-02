@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.18)
+project(rlimit_exec C)
+add_library(rlimit_exec SHARED rlimit_exec.c)
+find_library(log-lib log)
+target_link_libraries(rlimit_exec ${log-lib})

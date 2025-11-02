@@ -1,0 +1,31 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+!gradle-wrapper.jar
+
+# Android Studio specific
+.idea/
+*.iml
+
+# Local configuration files
+local.properties
+
+# Log files
+*.log
+
+# APKs
+app/release/
+app/debug/
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+
+# Keystore files
+*.jks
+*.keystore
+
+# NDK and caches
+.cxx/
