@@ -32,3 +32,5 @@ app/debug/
 app/src/main/assets/models/intent_mobilebert_int8.tflite
 gradle-8.7-bin.zip
 app/src/main/assets/models/intent_mobilebert_int8.tflite
+gradle-8.7-bin.zip
+app/src/main/assets/models/intent_mobilebert_int8.tflite
